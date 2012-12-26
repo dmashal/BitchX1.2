@@ -812,7 +812,7 @@ __inline static	void	pop3 (expr_info *c, NUMBER *a, TOKEN *v, TOKEN *w)
  * This is the reducer.  It takes the relevant arguments off the argument
  * stack and then performs the neccesary operation on them.
  */
-void	op (expr_info *cx, int what)
+static void	op (expr_info *cx, int what)
 {
 	NUMBER	a, b;
 	BooL	c, d;
