@@ -1,31 +1,40 @@
-                 Installation Instructions for BitchX 1.1-Final
+                 Installation Instructions for BitchX 1.2-Final
 
 BitchX is known to compile on the following systems (maybe others as well):
     * BSDI 2.0, 2.1, 3.1, 4.0
-    * FreeBSD 2.x, 3.x, 4.0
+    * FreeBSD 2.x, 3.x, 4.0 and above
     * NetBSD 3.x, 4.x
     * SunOS 4.1.4, 5.x and above
     * Linux (All)
+    * Mac OSX (All)
     * IRIX 5, 6
     * HP-UX 9.x, 10.x
     * OSF/1 (DEC Alpha)
     * Ultrix
     * AIX
     * OS/2 (with EMX)
-    * Windows 9x/2000/NT (with Cygwin)
+    * Windows 9x/2000/NT/XP/Vista/7 (with Cygwin)
     * QNX
+
+As of April 2012 BitchX is now officially included in Fedora Linux 15,16,17,18
+BitchX is also in the Red Hat EPEL repos (Extra Packages for Enterprise Linux).
+To install on Fedora simply type "yum install BitchX" as root.
+It is also included in the FreeBSD ports tree.
 
 Introduction:
 
 	Problems may occur during the compilation process of BitchX. If
-you do have a problem, please gather as much information about the error
-(*FULL* output of "make") and join #BitchX on EFNet, or use the forums website
-at http://www.cyberpunkz.org. Bug reports can be submitted via the web at
-http://bugs.bitchx.org/
+you do have a problem, please check http://github.com/BitchX/BitchX1.2/wiki
+which has instructions on compilations. If you still need help please gather 
+as much information about the error (*FULL* output of "configure and "make") 
+and join #BitchX on freenode or EFNet. 
+
+BUGS:
+Please submit bugs here: http://github.com/BitchX
 
 	Several script writers tend to hang in the #BitchX on EFNet to
-distribute their work to others. scripts.bitchx.org is a great place where
-scripts can be found.  You can also check out the scripting forum at the
+distribute their work to others. http://www.bitchx.ca/scripts  is a great place 
+where scripts can be found.  You can also check out the scripting forum at the
 previously mentioned forums site.
 
 	Some features will only work with certain servers -- IRCUMODE and
@@ -37,8 +46,8 @@ or any of the non-idling ops in #BitchX. If the bug can be reproduced
 faithfully, then we have enough to determine how it can be resolved.
 
 
-	Please check out the FAQ at http://faq.bitchx.org if you should
-have any troubles compiling.  A number of common mistakes and problems
+	Please check out the wiki at http://www.github.com/BitchX/BitchX1.2/wiki 
+if you should have any troubles compiling.  A number of common mistakes and problems
 users run into are posted in the FAQ and sometimes on the Forums as well.
 
 Compiling BitchX:
@@ -113,11 +122,11 @@ are marked with an asterisk, "*")
 
 --
 Last Updated:
-Rob Andrews
-sin@bitchx.org
-Match 26th, 2004
+Dan Mashal
+dan408@bitchx.ca
 
 Previous authors:
+Rob Andrews aka sin 03/26/2004
 David Walluck
 BarK0de
 BlackJac

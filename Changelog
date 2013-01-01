@@ -1,3 +1,14 @@
+[Changes 1.2-final]
+* Fix ANSI color support in terminal emulators. (sbalneav, VICODAN)
+
+* Add SASL support (flashback, VICODAN)
+
+* Update README and install files (VICODAN)
+
+* Fix compilation on FreeBSD 10 (cpet)
+
+* Fix compilation errors on cygwin (VICODAN, soreau)
+
 [Changes 1.2c02]
 * Bump the version to 1.2c02 and remove the svn from the version
 
