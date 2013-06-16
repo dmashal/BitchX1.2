@@ -314,6 +314,7 @@ munge_term_env_var(void)
   /*
    * Add more if's here, if needed.
    */
+      return 1;
 }
 
 void
@@ -895,7 +896,8 @@ static	char	*parse_args (char *argv[], int argc, char **envp)
 				bflag = 0;
 				break;
 			}
-
+				break;
+			}
 			case 'B':
 			{
 				if (argv[ac][2] && argv[ac][2] != 'l')
@@ -1216,7 +1218,6 @@ static	char	*parse_args (char *argv[], int argc, char **envp)
 			char *ptr = NULL;
 			malloc_strcpy(&ptr, DEFAULT_SERVER);
 			build_server_list(ptr);
-			new_free(&ptr);
 
 #endif
 			from_server = -1;
